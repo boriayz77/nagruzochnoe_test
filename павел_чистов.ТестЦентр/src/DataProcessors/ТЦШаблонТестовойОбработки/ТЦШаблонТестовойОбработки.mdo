@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39054546-cee2-4ff4-8cf3-7dab6a957c66">
+  <producedTypes>
+    <objectType typeId="5263a0d5-2fe5-440b-8041-e7caa634aff0" valueTypeId="dd1db9d6-f45b-4284-b44a-e0c15c70d80d"/>
+    <managerType typeId="9c107ac7-8c79-440d-b577-e876ffa9e0dd" valueTypeId="5154d5e5-a461-4310-a946-0d440e15b6f9"/>
+  </producedTypes>
+  <name>ТЦШаблонТестовойОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон тестовой обработки</value>
+  </synonym>
+  <defaultForm>DataProcessor.ТЦШаблонТестовойОбработки.Form.ТЦФорма</defaultForm>
+  <attributes uuid="b01a3460-d538-402b-bb30-3c4a68e1263b">
+    <name>ТЦИмяФайлаЖурналаТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла журнала тестирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d185cf7f-a6e8-4c80-9f2b-bf09ec0e0e3b">
+    <name>ТЦФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
